@@ -2,13 +2,21 @@
 
 # 🪐 spaCy Project: Use Case 02 Text Classification BBC & NG news
 
-A textcat project for spaCy v3. The project data comes from kaggle (https://XXX) project.
+A textcat project for spaCy v3. The project data comes from kaggle: 
++ BBC (https://www.kaggle.com/hgultekin/bbcnewsarchive)
++ NG (https://www.kaggle.com/salmaelanigri/doc-class)
+
+
+Label scheme (3 combined labels for 1 component):
+
+| Component | Labels |
+| --- | --- |
+| **`textcat`** | `tech`, `sport`, `entertainment` |
 
 ## 📋 project.yml
 
 The [`project.yml`](project.yml) defines the data assets required by the
-project, as well as the available commands and workflows. For details, see the
-[spaCy projects documentation](https://spacy.io/usage/projects).
+project, as well as the available commands and workflows.
 
 ### ⏯ Commands
 
@@ -43,7 +51,7 @@ in the project directory.
 
 | File | Source | Description |
 | --- | --- | --- |
-| [`assets/UC2_train_prodigy.jsonl`](assets/UC2_train_prodigy.jsonl) | Local | Demo training data |
-| [`assets/UC2_eval_prodigy.jsonl`](assets/UC2_eval_prodigy.jsonl) | Local | Demo development data |
+| [`assets/UC2_train_prodigy.jsonl`](assets/UC2_train_prodigy.jsonl) | Local | Training data |
+| [`assets/UC2_eval_prodigy.jsonl`](assets/UC2_eval_prodigy.jsonl) | Local | Development data |
 
 <!-- SPACY PROJECT: AUTO-GENERATED DOCS END (do not remove) -->

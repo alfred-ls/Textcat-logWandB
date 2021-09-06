@@ -48,3 +48,16 @@ evaluate:
       md5: 8bbc99fc45f03eca75a0b54c8f913834
   spacy_version: 3.1.1
   spacy_git_version: ffaead8fe
+package:
+  cmd: python -m spacy run package
+  script:
+    - python -m spacy package training/model-best packages --name textcat_demo --version
+      0.0.0 --force
+  deps:
+    - path: training/model-best
+      md5: bab406245d0d57fce340d96caae4566a
+  outs:
+    - path: packages/en_textcat_demo-0.0.0/dist/en_textcat_demo-0.0.0.tar.gz
+      md5: b159c8803ffb5859b5c9507f0a15eedd
+  spacy_version: 3.1.1
+  spacy_git_version: ffaead8fe
