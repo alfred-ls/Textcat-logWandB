@@ -1,5 +1,5 @@
-title: "Demo Textcat (Text Classification)"
-description: "A minimal demo textcat project for spaCy v3. The demo data comes from the [tutorials/textcat_docs_issues](https://github.com/explosion/projects/tree/v3/tutorials/textcat_docs_issues) project."
+title: "Use Case 02 Text Classification BBC & NG news"
+description: "A textcat project for spaCy v3. The project data comes from kaggle (https://XXX) project."
 # Variables can be referenced across the project.yml using ${vars.var_name}
 vars:
   name: "textcat_demo"
