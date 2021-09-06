@@ -86,7 +86,17 @@ commands:
   - name: visualize-model
     help: Visualize the model's output interactively using Streamlit
     script:
-      - "streamlit run scripts/visualize_model.py training/model-best \"provision Portland K8s cluster\""
+      - "streamlit run scripts/visualize_model.py training/model-best \" US Open: Spanish teenager Carlos Alcaraz wins in five sets to reach quarter-finals
+Last updated on8 hours ago8 hours ago.
+From the sectionTennis
+Carlos Alcaraz
+Alcaraz is the youngest men's Grand Slam singles quarter-finalist since Michael Chang at the 1990 French Open
+US Open 2021
+Venue: Flushing Meadows, New York Date: 30 August-12 September
+Coverage: Daily radio commentaries on BBC Radio 5 Live Sports Extra/BBC Sport website and app, with selected live text commentaries and match reports on the website and app
+Spanish teenager Carlos Alcaraz continued his sensational US Open debut by coming from behind to beat German Peter Gojowczyk in five sets and reach his first Grand Slam quarter-final.
+
+Alcaraz, 18, recovered from two-sets-to-one down to win 5-7 6-1 5-7 6-2 6-0.\""
     deps:
       - "scripts/visualize_model.py"
       - "training/model-best"
