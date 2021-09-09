@@ -1,0 +1,1156 @@
+2021-09-09 12:42:02,090 INFO    MainThread:9784 [internal.py:wandb_internal():86] W&B internal server running at pid: 9784, started at: 2021-09-09 12:42:02.083815
+2021-09-09 12:42:02,092 INFO    WriterThread:9784 [datastore.py:open_for_write():77] open: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\run-60cpr455.wandb
+2021-09-09 12:42:02,092 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: check_version
+2021-09-09 12:42:02,094 DEBUG   SenderThread:9784 [sender.py:send():182] send: header
+2021-09-09 12:42:02,094 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: check_version
+2021-09-09 12:42:02,212 DEBUG   SenderThread:9784 [sender.py:send():182] send: run
+2021-09-09 12:42:02,528 INFO    SenderThread:9784 [dir_watcher.py:__init__():169] watching files in: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files
+2021-09-09 12:42:02,528 INFO    SenderThread:9784 [sender.py:_start_run_threads():740] run started: 60cpr455 with start time 1631184121
+2021-09-09 12:42:02,528 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: run_start
+2021-09-09 12:42:02,528 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 12:42:02,535 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 12:42:02,541 DEBUG   HandlerThread:9784 [meta.py:__init__():40] meta init
+2021-09-09 12:42:02,541 DEBUG   HandlerThread:9784 [meta.py:__init__():54] meta init done
+2021-09-09 12:42:02,541 DEBUG   HandlerThread:9784 [meta.py:probe():211] probe
+2021-09-09 12:42:02,545 DEBUG   HandlerThread:9784 [meta.py:_setup_git():201] setup git
+2021-09-09 12:42:02,650 DEBUG   HandlerThread:9784 [meta.py:_setup_git():208] setup git done
+2021-09-09 12:42:02,651 DEBUG   HandlerThread:9784 [meta.py:_save_pip():58] save pip
+2021-09-09 12:42:02,652 DEBUG   HandlerThread:9784 [meta.py:_save_pip():72] save pip done
+2021-09-09 12:42:02,652 DEBUG   HandlerThread:9784 [meta.py:_save_conda():79] save conda
+2021-09-09 12:42:03,531 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\wandb-summary.json
+2021-09-09 12:42:03,531 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\conda-environment.yaml
+2021-09-09 12:42:03,531 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\requirements.txt
+2021-09-09 12:42:03,679 DEBUG   HandlerThread:9784 [meta.py:_save_conda():87] save conda done
+2021-09-09 12:42:03,679 DEBUG   HandlerThread:9784 [meta.py:probe():249] probe done
+2021-09-09 12:42:03,725 DEBUG   SenderThread:9784 [sender.py:send():182] send: files
+2021-09-09 12:42:03,725 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2021-09-09 12:42:03,726 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:42:03,727 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:42:04,280 INFO    Thread-17 :9784 [upload_job.py:push():137] Uploaded file C:\Users\astelzl\AppData\Local\Temp\tmpm0bh1ndpwandb\28nw2a3d-wandb-metadata.json
+2021-09-09 12:42:04,530 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\wandb-metadata.json
+2021-09-09 12:42:04,531 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\output.log
+2021-09-09 12:42:06,531 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\output.log
+2021-09-09 12:42:18,914 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:42:18,914 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:42:30,944 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 12:42:34,120 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:42:34,120 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:42:49,293 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:42:49,293 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:43:01,386 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 12:43:05,816 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:43:05,816 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:43:21,018 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:43:21,018 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:43:31,897 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 12:43:36,210 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:43:36,211 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:43:46,220 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 12:43:46,220 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 12:43:46,224 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 12:43:46,224 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 12:43:46,224 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 12:43:46,225 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 12:43:46,225 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 12:43:46,225 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 12:43:46,226 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 12:43:46,594 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\wandb-summary.json
+2021-09-09 12:43:47,594 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\output.log
+2021-09-09 12:43:51,448 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:43:51,448 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:44:02,341 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 12:44:06,871 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:44:06,871 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:44:22,347 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:44:22,347 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:44:32,833 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 12:44:37,727 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:44:37,727 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:44:52,913 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:44:52,913 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:45:03,270 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 12:45:05,647 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 12:45:05,647 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 12:45:05,648 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 12:45:05,648 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 12:45:05,648 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 12:45:05,649 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 12:45:05,649 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 12:45:05,649 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 12:45:05,650 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 12:45:05,660 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\wandb-summary.json
+2021-09-09 12:45:06,661 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\output.log
+2021-09-09 12:45:08,273 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:45:08,273 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:45:23,467 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:45:23,468 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:45:33,720 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 12:45:38,680 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:45:38,680 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:45:53,905 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:45:53,905 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:46:04,165 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 12:46:09,082 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:46:09,082 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:46:21,859 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 12:46:21,859 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 12:46:21,864 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 12:46:21,864 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 12:46:21,865 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 12:46:21,865 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 12:46:21,866 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 12:46:21,866 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 12:46:21,867 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 12:46:22,710 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\wandb-summary.json
+2021-09-09 12:46:22,710 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\output.log
+2021-09-09 12:46:24,279 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:46:24,279 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:46:34,618 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 12:46:39,489 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:46:39,489 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:46:54,702 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:46:54,702 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:47:05,056 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 12:47:09,886 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:47:09,886 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:47:25,257 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:47:25,257 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:47:32,846 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 12:47:32,846 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 12:47:32,848 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 12:47:32,849 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 12:47:32,849 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 12:47:32,850 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 12:47:32,850 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 12:47:32,851 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 12:47:32,851 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 12:47:33,758 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\wandb-summary.json
+2021-09-09 12:47:34,757 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\output.log
+2021-09-09 12:47:35,504 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 12:47:40,461 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:47:40,461 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:47:55,638 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:47:55,638 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:48:05,943 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 12:48:11,489 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:48:11,489 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:48:26,993 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:48:26,994 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:48:36,377 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 12:48:42,189 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:48:42,189 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:48:45,067 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 12:48:45,067 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 12:48:45,073 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 12:48:45,073 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 12:48:45,074 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 12:48:45,075 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 12:48:45,075 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 12:48:45,075 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 12:48:45,076 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 12:48:45,796 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\wandb-summary.json
+2021-09-09 12:48:45,797 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\output.log
+2021-09-09 12:48:57,384 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:48:57,384 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:49:06,852 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 12:49:12,603 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:49:12,603 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:49:27,777 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:49:27,777 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:49:37,288 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 12:49:42,980 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:49:42,980 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:49:58,669 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:49:58,669 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:49:59,938 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 12:49:59,938 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 12:49:59,941 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 12:49:59,942 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 12:49:59,942 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 12:49:59,943 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 12:49:59,943 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 12:49:59,943 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 12:49:59,944 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 12:50:00,845 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\wandb-summary.json
+2021-09-09 12:50:01,845 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\output.log
+2021-09-09 12:50:07,750 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 12:50:14,668 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:50:14,668 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:50:29,957 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:50:29,957 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:50:38,174 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 12:50:45,242 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:50:45,242 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:51:00,403 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:51:00,403 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:51:08,608 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 12:51:13,327 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 12:51:13,327 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 12:51:13,327 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 12:51:13,328 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 12:51:13,328 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 12:51:13,328 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 12:51:13,329 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 12:51:13,329 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 12:51:13,329 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 12:51:13,885 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\wandb-summary.json
+2021-09-09 12:51:13,885 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\output.log
+2021-09-09 12:51:15,758 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:51:15,758 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:51:30,942 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:51:30,942 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:51:39,055 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 12:51:46,181 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:51:46,181 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:52:01,523 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:52:01,523 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:52:09,490 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 12:52:16,779 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:52:16,779 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:52:26,379 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 12:52:26,379 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 12:52:26,382 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 12:52:26,382 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 12:52:26,382 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 12:52:26,383 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 12:52:26,383 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 12:52:26,383 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 12:52:26,384 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 12:52:26,923 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\wandb-summary.json
+2021-09-09 12:52:26,924 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\output.log
+2021-09-09 12:52:31,995 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:52:31,996 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:52:39,927 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 12:52:47,408 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:52:47,408 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:53:02,753 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:53:02,753 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:53:10,358 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 12:53:17,939 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:53:17,939 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:53:33,124 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:53:33,124 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:53:37,270 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 12:53:37,270 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 12:53:37,271 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 12:53:37,271 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 12:53:37,271 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 12:53:37,272 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 12:53:37,272 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 12:53:37,273 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 12:53:37,273 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 12:53:37,960 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\wandb-summary.json
+2021-09-09 12:53:39,961 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\output.log
+2021-09-09 12:53:40,807 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 12:53:48,406 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:53:48,406 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:54:03,576 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:54:03,576 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:54:11,252 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 12:54:18,781 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:54:18,781 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:54:33,962 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:54:33,962 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:54:41,681 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 12:54:48,868 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 12:54:48,868 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 12:54:48,869 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 12:54:48,869 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 12:54:48,869 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 12:54:48,869 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 12:54:48,870 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 12:54:48,870 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 12:54:48,870 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 12:54:48,999 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\wandb-summary.json
+2021-09-09 12:54:49,189 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:54:49,190 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:54:49,999 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\output.log
+2021-09-09 12:55:04,412 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:55:04,412 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:55:12,120 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 12:55:19,602 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:55:19,602 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:55:34,927 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:55:34,927 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:55:42,557 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 12:55:50,371 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:55:50,371 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:56:01,790 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 12:56:01,790 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 12:56:01,791 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 12:56:01,791 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 12:56:01,791 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 12:56:01,792 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 12:56:01,792 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 12:56:01,792 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 12:56:01,793 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 12:56:02,035 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\wandb-summary.json
+2021-09-09 12:56:03,036 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\output.log
+2021-09-09 12:56:05,546 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:56:05,546 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:56:12,996 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 12:56:20,748 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:56:20,748 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:56:36,191 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:56:36,191 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:56:43,424 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 12:56:51,374 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:56:51,374 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:57:06,560 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:57:06,560 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:57:13,853 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 12:57:16,546 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 12:57:16,546 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 12:57:16,549 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 12:57:16,549 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 12:57:16,549 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 12:57:16,550 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 12:57:16,550 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 12:57:16,550 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 12:57:16,551 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 12:57:17,082 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\wandb-summary.json
+2021-09-09 12:57:17,083 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\output.log
+2021-09-09 12:57:21,786 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:57:21,786 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:57:36,988 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:57:36,989 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:57:44,294 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 12:57:52,215 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:57:52,215 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:58:07,504 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:58:07,504 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:58:14,724 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 12:58:22,813 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:58:22,813 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:58:30,299 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 12:58:30,299 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 12:58:30,302 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 12:58:30,302 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 12:58:30,302 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 12:58:30,303 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 12:58:30,303 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 12:58:30,303 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 12:58:30,304 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 12:58:31,127 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\wandb-summary.json
+2021-09-09 12:58:31,128 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\output.log
+2021-09-09 12:58:38,003 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:58:38,003 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:58:45,164 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 12:58:53,381 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:58:53,381 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:59:08,667 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:59:08,667 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:59:15,628 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 12:59:24,592 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:59:24,593 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:59:39,782 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:59:39,782 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 12:59:46,055 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 12:59:48,720 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 12:59:48,721 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 12:59:48,721 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 12:59:48,722 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 12:59:48,722 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 12:59:48,722 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 12:59:48,723 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 12:59:48,723 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 12:59:48,723 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 12:59:49,168 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\wandb-summary.json
+2021-09-09 12:59:49,168 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\output.log
+2021-09-09 12:59:55,128 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 12:59:55,128 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:00:10,420 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:00:10,420 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:00:16,504 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:00:25,697 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:00:25,697 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:00:41,456 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:00:41,456 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:00:46,958 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:00:56,633 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:00:56,633 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:01:02,000 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:01:02,000 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:01:02,004 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:01:02,004 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:01:02,004 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:01:02,005 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:01:02,005 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:01:02,005 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:01:02,006 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:01:02,212 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\wandb-summary.json
+2021-09-09 13:01:03,212 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\output.log
+2021-09-09 13:01:11,941 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:01:11,941 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:01:17,412 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:01:27,121 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:01:27,121 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:01:42,798 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:01:42,798 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:01:48,367 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:01:57,962 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:01:57,963 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:02:13,138 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:02:13,138 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:02:18,812 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:02:26,382 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:02:26,382 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:02:26,384 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:02:26,384 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:02:26,384 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:02:26,385 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:02:26,385 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:02:26,386 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:02:26,386 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:02:27,293 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\wandb-summary.json
+2021-09-09 13:02:28,294 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\output.log
+2021-09-09 13:02:28,334 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:02:28,334 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:02:43,551 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:02:43,552 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:02:49,290 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:02:59,136 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:02:59,136 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:03:14,365 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:03:14,365 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:03:19,758 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:03:29,535 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:03:29,535 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:03:44,729 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:03:44,729 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:03:46,432 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:03:46,432 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:03:46,433 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:03:46,433 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:03:46,433 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:03:46,434 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:03:46,434 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:03:46,435 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:03:46,435 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:03:47,348 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\wandb-summary.json
+2021-09-09 13:03:48,349 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\output.log
+2021-09-09 13:03:50,201 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:04:00,087 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:04:00,087 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:04:15,782 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:04:15,782 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:04:20,663 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:04:30,945 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:04:30,945 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:04:46,134 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:04:46,134 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:04:51,135 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:05:01,317 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:05:01,317 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:05:05,908 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:05:05,908 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:05:05,909 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:05:05,909 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:05:05,909 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:05:05,910 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:05:05,910 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:05:05,910 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:05:05,911 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:05:06,403 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\wandb-summary.json
+2021-09-09 13:05:07,404 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\output.log
+2021-09-09 13:05:16,557 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:05:16,557 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:05:21,628 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:05:31,979 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:05:31,979 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:05:47,208 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:05:47,208 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:05:52,072 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:06:02,382 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:06:02,382 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:06:17,566 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:06:17,566 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:06:22,510 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:06:25,450 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:06:25,451 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:06:25,453 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:06:25,454 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:06:25,454 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:06:25,454 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\wandb-summary.json
+2021-09-09 13:06:25,455 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:06:25,455 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:06:25,455 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:06:25,456 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:06:26,455 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\wandb-summary.json
+2021-09-09 13:06:26,456 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\output.log
+2021-09-09 13:06:32,825 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:06:32,825 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:06:48,034 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:06:48,034 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:06:53,000 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:07:03,303 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:07:03,303 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:07:19,314 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:07:19,314 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:07:23,439 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:07:34,494 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:07:34,495 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:07:45,583 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:07:45,583 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:07:45,584 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:07:45,584 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:07:45,584 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:07:45,585 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:07:45,585 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:07:45,585 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:07:45,586 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:07:46,506 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\wandb-summary.json
+2021-09-09 13:07:48,506 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\output.log
+2021-09-09 13:07:49,730 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:07:49,730 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:07:53,884 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:08:04,934 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:08:04,934 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:08:20,926 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:08:20,926 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:08:24,318 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:08:36,115 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:08:36,115 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:08:51,299 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:08:51,300 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:08:54,759 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:09:03,339 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:09:03,339 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:09:03,340 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:09:03,340 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:09:03,341 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:09:03,341 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:09:03,341 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:09:03,342 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:09:03,343 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:09:03,549 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\wandb-summary.json
+2021-09-09 13:09:05,551 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\output.log
+2021-09-09 13:09:06,582 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:09:06,583 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:09:21,790 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:09:21,790 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:09:25,255 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:09:37,260 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:09:37,260 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:09:52,426 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:09:52,427 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:09:55,686 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:10:07,592 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:10:07,592 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:10:23,099 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:10:23,099 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:10:23,356 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:10:23,357 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:10:23,360 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:10:23,360 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:10:23,360 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:10:23,361 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:10:23,361 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:10:23,362 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:10:23,362 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:10:23,597 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\wandb-summary.json
+2021-09-09 13:10:24,597 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\output.log
+2021-09-09 13:10:26,120 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:10:38,344 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:10:38,344 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:10:53,643 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:10:53,643 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:10:56,927 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:11:08,814 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:11:08,814 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:11:24,005 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:11:24,005 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:11:27,378 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:11:39,201 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:11:39,201 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:11:47,287 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:11:47,287 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:11:47,291 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:11:47,292 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:11:47,292 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:11:47,293 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:11:47,293 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:11:47,293 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:11:47,294 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:11:47,693 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\wandb-summary.json
+2021-09-09 13:11:49,694 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\output.log
+2021-09-09 13:11:54,502 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:11:54,503 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:11:57,873 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:12:09,698 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:12:09,699 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:12:24,920 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:12:24,920 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:12:28,319 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:12:40,095 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:12:40,095 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:12:55,808 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:12:55,808 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:12:58,757 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:13:07,388 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:13:07,388 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:13:07,390 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:13:07,391 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:13:07,391 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:13:07,391 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:13:07,392 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:13:07,392 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:13:07,392 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:13:07,766 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\wandb-summary.json
+2021-09-09 13:13:09,767 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\output.log
+2021-09-09 13:13:11,114 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:13:11,114 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:13:26,312 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:13:26,312 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:13:29,208 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:13:41,511 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:13:41,511 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:13:56,751 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:13:56,751 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:13:59,645 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:14:12,991 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:14:12,991 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:14:26,747 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:14:26,747 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:14:26,748 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:14:26,748 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:14:26,748 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:14:26,749 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:14:26,749 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:14:26,749 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:14:26,750 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:14:26,810 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\wandb-summary.json
+2021-09-09 13:14:28,156 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:14:28,156 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:14:28,812 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\output.log
+2021-09-09 13:14:30,098 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:14:43,364 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:14:43,364 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:14:58,545 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:14:58,545 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:15:00,579 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:15:13,875 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:15:13,875 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:15:29,421 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:15:29,422 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:15:31,020 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:15:44,597 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:15:44,597 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:15:47,811 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:15:47,812 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:15:47,814 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:15:47,814 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:15:47,814 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:15:47,815 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:15:47,816 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:15:47,816 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:15:47,816 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:15:47,854 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\wandb-summary.json
+2021-09-09 13:15:49,856 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\output.log
+2021-09-09 13:15:59,855 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:15:59,856 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:16:01,473 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:16:15,156 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:16:15,156 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:16:30,702 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:16:30,703 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:16:31,918 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:16:45,890 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:16:45,890 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:17:01,263 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:17:01,263 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:17:02,361 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:17:08,006 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:17:08,006 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:17:08,010 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:17:08,010 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:17:08,011 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:17:08,012 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:17:08,012 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:17:08,012 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:17:08,013 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:17:08,907 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\wandb-summary.json
+2021-09-09 13:17:09,908 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\output.log
+2021-09-09 13:17:16,576 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:17:16,576 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:17:31,794 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:17:31,795 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:17:32,833 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:17:46,979 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:17:46,979 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:18:02,780 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:18:02,780 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:18:03,274 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:18:18,076 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:18:18,076 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:18:32,246 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:18:32,249 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:18:32,250 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:18:32,250 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:18:32,250 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:18:32,251 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:18:32,251 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:18:32,251 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:18:32,252 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:18:32,974 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\wandb-summary.json
+2021-09-09 13:18:33,250 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:18:33,250 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:18:33,724 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:18:33,975 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\output.log
+2021-09-09 13:18:48,450 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:18:48,451 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:19:03,725 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:19:03,725 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:19:04,188 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:19:18,932 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:19:18,933 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:19:34,806 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:19:35,636 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:19:35,636 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:19:51,067 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:19:51,068 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:20:05,251 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:20:05,400 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:20:05,400 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:20:05,401 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:20:05,401 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:20:05,401 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:20:05,402 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:20:05,402 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:20:05,402 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:20:05,403 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:20:05,778 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\wandb-summary.json
+2021-09-09 13:20:06,235 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:20:06,235 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:20:07,778 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\output.log
+2021-09-09 13:20:21,441 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:20:21,441 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:20:35,720 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:20:36,768 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:20:36,768 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:20:52,139 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:20:52,139 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:21:06,151 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:21:07,327 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:21:07,327 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:21:22,582 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:21:22,582 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:21:28,592 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:21:28,592 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:21:28,595 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:21:28,595 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:21:28,595 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:21:28,596 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:21:28,596 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:21:28,596 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:21:28,598 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:21:28,827 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\wandb-summary.json
+2021-09-09 13:21:30,827 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\output.log
+2021-09-09 13:21:36,611 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:21:37,792 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:21:37,792 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:21:53,012 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:21:53,012 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:22:07,072 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:22:08,499 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:22:08,499 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:22:23,690 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:22:23,690 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:22:37,513 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:22:38,924 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:22:38,924 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:22:51,916 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:22:51,916 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:22:51,919 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:22:51,919 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:22:51,919 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:22:51,920 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:22:51,920 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:22:51,920 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:22:51,921 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:22:52,869 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\wandb-summary.json
+2021-09-09 13:22:52,870 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\output.log
+2021-09-09 13:22:54,131 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:22:54,132 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:23:07,973 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:23:09,331 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:23:09,332 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:23:24,516 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:23:24,516 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:23:38,413 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:23:40,807 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:23:40,807 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:23:57,047 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:23:57,047 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:24:08,874 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:24:12,254 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:24:12,254 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:24:17,288 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:24:17,289 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:24:17,292 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:24:17,292 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:24:17,293 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:24:17,293 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:24:17,294 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:24:17,294 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:24:17,294 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:24:17,918 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\wandb-summary.json
+2021-09-09 13:24:19,919 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\output.log
+2021-09-09 13:24:27,468 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:24:27,468 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:24:39,354 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:24:42,648 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:24:42,649 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:24:57,846 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:24:57,846 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:25:09,797 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:25:13,165 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:25:13,165 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:25:28,345 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:25:28,345 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:25:40,264 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:25:41,593 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:25:41,594 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:25:41,594 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:25:41,595 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:25:41,595 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:25:41,595 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:25:41,596 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:25:41,596 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:25:41,597 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:25:41,980 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\wandb-summary.json
+2021-09-09 13:25:43,813 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:25:43,813 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:25:43,981 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\output.log
+2021-09-09 13:25:59,000 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:25:59,000 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:26:10,720 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:26:14,324 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:26:14,324 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:26:29,504 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:26:29,505 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:26:41,165 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:26:46,104 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:26:46,104 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:27:01,295 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:27:01,295 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:27:04,291 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:27:04,291 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:27:04,295 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:27:04,295 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:27:04,296 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:27:04,296 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:27:04,296 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:27:04,297 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:27:04,297 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:27:05,032 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\wandb-summary.json
+2021-09-09 13:27:07,032 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\output.log
+2021-09-09 13:27:11,610 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:27:16,514 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:27:16,514 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:27:31,791 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:27:31,791 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:27:42,053 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:27:46,976 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:27:46,976 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:28:02,547 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:28:02,547 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:28:12,501 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:28:17,844 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:28:17,845 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:28:25,935 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:28:25,938 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:28:25,938 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:28:25,939 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:28:25,939 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:28:25,940 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:28:25,940 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:28:25,940 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:28:25,941 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:28:26,080 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\wandb-summary.json
+2021-09-09 13:28:28,082 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\output.log
+2021-09-09 13:28:33,043 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:28:33,043 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:28:42,967 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:28:48,306 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:28:48,306 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:29:03,540 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:29:03,540 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:29:13,409 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:29:18,711 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:29:18,711 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:29:34,008 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:29:34,009 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:29:43,890 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:29:49,210 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:29:49,210 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:29:52,377 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:29:52,377 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:29:52,380 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:29:52,380 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:29:52,380 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:29:52,381 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:29:52,381 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:29:52,381 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:29:52,382 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:29:53,135 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\wandb-summary.json
+2021-09-09 13:29:55,135 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\output.log
+2021-09-09 13:30:04,415 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:30:04,415 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:30:14,361 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:30:19,615 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:30:19,615 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:30:34,852 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:30:34,852 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:30:44,808 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:30:50,038 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:30:50,038 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:31:05,238 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:31:05,238 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:31:15,247 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:31:20,418 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:31:20,418 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:31:22,414 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:31:22,414 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:31:22,418 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:31:22,418 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:31:22,418 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:31:22,419 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:31:22,419 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:31:22,419 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:31:22,420 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:31:23,188 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\wandb-summary.json
+2021-09-09 13:31:24,189 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\output.log
+2021-09-09 13:31:35,645 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:31:35,645 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:31:45,696 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:31:50,841 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:31:50,841 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:32:06,041 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:32:06,041 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:32:16,134 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:32:21,227 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:32:21,227 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:32:36,454 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:32:36,454 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:32:45,650 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:32:45,651 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:32:45,652 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:32:45,652 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:32:45,653 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:32:45,654 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:32:45,654 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:32:45,654 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:32:45,655 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:32:46,233 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\wandb-summary.json
+2021-09-09 13:32:46,584 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:32:47,232 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\output.log
+2021-09-09 13:32:51,912 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:32:51,912 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:33:07,172 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:33:07,172 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:33:17,036 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:33:22,661 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:33:22,661 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:33:37,839 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:33:37,839 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:33:47,474 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:33:53,137 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:33:53,137 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:34:09,124 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:34:09,124 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:34:09,384 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:34:09,384 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:34:09,386 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:34:09,386 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:34:09,387 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:34:09,387 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:34:09,387 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:34:09,388 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:34:09,388 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:34:10,277 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\wandb-summary.json
+2021-09-09 13:34:12,279 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\output.log
+2021-09-09 13:34:17,924 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:34:24,376 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:34:24,376 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:34:39,722 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:34:39,722 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:34:48,363 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:34:55,100 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:34:55,101 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:35:10,503 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:35:10,503 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:35:18,798 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:35:26,132 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:35:26,132 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:35:29,235 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:35:29,235 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:35:29,238 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:35:29,238 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:35:29,238 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:35:29,239 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:35:29,239 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:35:29,240 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:35:29,240 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:35:29,320 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\wandb-summary.json
+2021-09-09 13:35:31,320 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\output.log
+2021-09-09 13:35:41,324 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:35:41,325 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:35:49,262 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:35:56,509 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:35:56,509 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:36:11,717 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:36:11,717 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:36:19,704 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:36:26,995 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:36:26,995 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:36:42,177 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:36:42,177 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:36:50,147 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:36:51,407 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:36:51,407 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:36:51,408 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:36:51,408 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:36:51,408 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:36:51,409 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:36:51,409 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:36:51,409 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:36:51,410 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:36:52,375 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\wandb-summary.json
+2021-09-09 13:36:52,375 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\output.log
+2021-09-09 13:36:57,432 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:36:57,433 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:37:12,605 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:37:12,605 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:37:20,605 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:37:27,828 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:37:27,828 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:37:43,022 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:37:43,023 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:37:51,085 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:37:58,218 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:37:58,218 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:38:13,404 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 13:38:13,404 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 13:38:20,548 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:38:20,549 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:38:20,553 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:38:20,554 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:38:20,554 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:38:20,555 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:38:20,556 DEBUG   SenderThread:9784 [sender.py:send():182] send: history
+2021-09-09 13:38:20,556 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:38:20,557 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:38:21,431 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\wandb-summary.json
+2021-09-09 13:38:21,432 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\output.log
+2021-09-09 13:38:21,539 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:38:21,555 DEBUG   SenderThread:9784 [sender.py:send():182] send: telemetry
+2021-09-09 13:38:21,556 DEBUG   SenderThread:9784 [sender.py:send():182] send: exit
+2021-09-09 13:38:21,564 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-09 13:38:21,556 INFO    SenderThread:9784 [sender.py:send_exit():291] handling exit code: 0
+2021-09-09 13:38:21,573 INFO    SenderThread:9784 [sender.py:send_exit():293] handling runtime: 3379
+2021-09-09 13:38:21,574 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:38:21,575 INFO    SenderThread:9784 [sender.py:send_exit():303] send defer
+2021-09-09 13:38:21,577 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: poll_exit
+2021-09-09 13:38:21,583 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: defer
+2021-09-09 13:38:21,583 INFO    HandlerThread:9784 [handler.py:handle_request_defer():143] handle defer: 0
+2021-09-09 13:38:21,584 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: defer
+2021-09-09 13:38:21,584 INFO    SenderThread:9784 [sender.py:send_request_defer():312] handle sender defer: 0
+2021-09-09 13:38:21,585 INFO    SenderThread:9784 [sender.py:transition_state():316] send defer: 1
+2021-09-09 13:38:21,585 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: defer
+2021-09-09 13:38:21,585 INFO    HandlerThread:9784 [handler.py:handle_request_defer():143] handle defer: 1
+2021-09-09 13:38:21,650 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: defer
+2021-09-09 13:38:21,650 INFO    SenderThread:9784 [sender.py:send_request_defer():312] handle sender defer: 1
+2021-09-09 13:38:21,650 INFO    SenderThread:9784 [sender.py:transition_state():316] send defer: 2
+2021-09-09 13:38:21,652 DEBUG   SenderThread:9784 [sender.py:send():182] send: stats
+2021-09-09 13:38:21,653 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: defer
+2021-09-09 13:38:21,653 INFO    HandlerThread:9784 [handler.py:handle_request_defer():143] handle defer: 2
+2021-09-09 13:38:21,654 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: defer
+2021-09-09 13:38:21,654 INFO    SenderThread:9784 [sender.py:send_request_defer():312] handle sender defer: 2
+2021-09-09 13:38:21,654 INFO    SenderThread:9784 [sender.py:transition_state():316] send defer: 3
+2021-09-09 13:38:21,655 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: defer
+2021-09-09 13:38:21,655 INFO    HandlerThread:9784 [handler.py:handle_request_defer():143] handle defer: 3
+2021-09-09 13:38:21,655 DEBUG   SenderThread:9784 [sender.py:send():182] send: summary
+2021-09-09 13:38:21,656 INFO    SenderThread:9784 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 13:38:21,657 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: defer
+2021-09-09 13:38:21,657 INFO    SenderThread:9784 [sender.py:send_request_defer():312] handle sender defer: 3
+2021-09-09 13:38:21,657 INFO    SenderThread:9784 [sender.py:transition_state():316] send defer: 4
+2021-09-09 13:38:21,657 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: defer
+2021-09-09 13:38:21,657 INFO    HandlerThread:9784 [handler.py:handle_request_defer():143] handle defer: 4
+2021-09-09 13:38:21,657 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: defer
+2021-09-09 13:38:21,657 INFO    SenderThread:9784 [sender.py:send_request_defer():312] handle sender defer: 4
+2021-09-09 13:38:21,684 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-09 13:38:21,899 INFO    SenderThread:9784 [sender.py:transition_state():316] send defer: 5
+2021-09-09 13:38:21,899 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: poll_exit
+2021-09-09 13:38:21,900 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: defer
+2021-09-09 13:38:21,900 INFO    HandlerThread:9784 [handler.py:handle_request_defer():143] handle defer: 5
+2021-09-09 13:38:21,900 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: defer
+2021-09-09 13:38:21,900 INFO    SenderThread:9784 [sender.py:send_request_defer():312] handle sender defer: 5
+2021-09-09 13:38:21,900 INFO    SenderThread:9784 [dir_watcher.py:finish():283] shutting down directory watcher
+2021-09-09 13:38:22,001 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-09 13:38:22,431 INFO    Thread-12 :9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\wandb-summary.json
+2021-09-09 13:38:22,432 INFO    SenderThread:9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\config.yaml
+2021-09-09 13:38:22,433 INFO    SenderThread:9784 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\output.log
+2021-09-09 13:38:22,433 INFO    SenderThread:9784 [dir_watcher.py:finish():313] scan: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files
+2021-09-09 13:38:22,433 INFO    SenderThread:9784 [dir_watcher.py:finish():327] scan save: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\conda-environment.yaml conda-environment.yaml
+2021-09-09 13:38:22,434 INFO    SenderThread:9784 [dir_watcher.py:finish():327] scan save: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\config.yaml config.yaml
+2021-09-09 13:38:22,434 INFO    SenderThread:9784 [dir_watcher.py:finish():327] scan save: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\output.log output.log
+2021-09-09 13:38:22,434 INFO    SenderThread:9784 [dir_watcher.py:finish():327] scan save: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\requirements.txt requirements.txt
+2021-09-09 13:38:22,435 INFO    SenderThread:9784 [dir_watcher.py:finish():327] scan save: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\wandb-metadata.json wandb-metadata.json
+2021-09-09 13:38:22,436 INFO    SenderThread:9784 [dir_watcher.py:finish():327] scan save: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\wandb-summary.json wandb-summary.json
+2021-09-09 13:38:22,441 INFO    SenderThread:9784 [sender.py:transition_state():316] send defer: 6
+2021-09-09 13:38:22,441 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: poll_exit
+2021-09-09 13:38:22,445 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: defer
+2021-09-09 13:38:22,445 INFO    HandlerThread:9784 [handler.py:handle_request_defer():143] handle defer: 6
+2021-09-09 13:38:22,445 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: defer
+2021-09-09 13:38:22,448 INFO    SenderThread:9784 [sender.py:send_request_defer():312] handle sender defer: 6
+2021-09-09 13:38:22,448 INFO    SenderThread:9784 [file_pusher.py:finish():177] shutting down file pusher
+2021-09-09 13:38:22,546 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-09 13:38:22,546 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: poll_exit
+2021-09-09 13:38:22,647 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-09 13:38:22,647 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: poll_exit
+2021-09-09 13:38:22,749 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-09 13:38:22,749 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: poll_exit
+2021-09-09 13:38:22,851 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-09 13:38:22,851 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: poll_exit
+2021-09-09 13:38:22,953 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-09 13:38:22,953 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: poll_exit
+2021-09-09 13:38:23,003 INFO    Thread-19 :9784 [upload_job.py:push():137] Uploaded file C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\output.log
+2021-09-09 13:38:23,020 INFO    Thread-20 :9784 [upload_job.py:push():137] Uploaded file C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\requirements.txt
+2021-09-09 13:38:23,034 INFO    Thread-21 :9784 [upload_job.py:push():137] Uploaded file C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\wandb-summary.json
+2021-09-09 13:38:23,050 INFO    Thread-18 :9784 [upload_job.py:push():137] Uploaded file C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\files\config.yaml
+2021-09-09 13:38:23,054 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-09 13:38:23,054 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: poll_exit
+2021-09-09 13:38:23,156 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-09 13:38:23,156 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: poll_exit
+2021-09-09 13:38:23,250 INFO    Thread-11 :9784 [sender.py:transition_state():316] send defer: 7
+2021-09-09 13:38:23,250 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: defer
+2021-09-09 13:38:23,250 INFO    HandlerThread:9784 [handler.py:handle_request_defer():143] handle defer: 7
+2021-09-09 13:38:23,250 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: defer
+2021-09-09 13:38:23,250 INFO    SenderThread:9784 [sender.py:send_request_defer():312] handle sender defer: 7
+2021-09-09 13:38:23,258 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-09 13:38:23,547 INFO    SenderThread:9784 [sender.py:transition_state():316] send defer: 8
+2021-09-09 13:38:23,547 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: poll_exit
+2021-09-09 13:38:23,547 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: defer
+2021-09-09 13:38:23,548 INFO    HandlerThread:9784 [handler.py:handle_request_defer():143] handle defer: 8
+2021-09-09 13:38:23,548 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: defer
+2021-09-09 13:38:23,548 INFO    SenderThread:9784 [sender.py:send_request_defer():312] handle sender defer: 8
+2021-09-09 13:38:23,548 INFO    SenderThread:9784 [sender.py:transition_state():316] send defer: 9
+2021-09-09 13:38:23,549 DEBUG   SenderThread:9784 [sender.py:send():182] send: final
+2021-09-09 13:38:23,549 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: defer
+2021-09-09 13:38:23,549 INFO    HandlerThread:9784 [handler.py:handle_request_defer():143] handle defer: 9
+2021-09-09 13:38:23,549 DEBUG   SenderThread:9784 [sender.py:send():182] send: footer
+2021-09-09 13:38:23,549 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: defer
+2021-09-09 13:38:23,549 INFO    SenderThread:9784 [sender.py:send_request_defer():312] handle sender defer: 9
+2021-09-09 13:38:23,648 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-09 13:38:23,649 DEBUG   SenderThread:9784 [sender.py:send_request():196] send_request: poll_exit
+2021-09-09 13:38:23,649 INFO    SenderThread:9784 [file_pusher.py:join():182] waiting for file pusher
+2021-09-09 13:38:23,652 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: get_summary
+2021-09-09 13:38:23,654 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: sampled_history
+2021-09-09 13:38:23,657 DEBUG   HandlerThread:9784 [handler.py:handle_request():126] handle_request: shutdown
+2021-09-09 13:38:23,658 INFO    HandlerThread:9784 [handler.py:finish():683] shutting down handler
+2021-09-09 13:38:24,550 INFO    WriterThread:9784 [datastore.py:close():281] close: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\UC02-textcat-loggingWandb\wandb\run-20210909_124201-60cpr455\run-60cpr455.wandb
+2021-09-09 13:38:24,651 INFO    SenderThread:9784 [sender.py:finish():979] shutting down sender
+2021-09-09 13:38:24,651 INFO    SenderThread:9784 [file_pusher.py:finish():177] shutting down file pusher
+2021-09-09 13:38:24,651 INFO    SenderThread:9784 [file_pusher.py:join():182] waiting for file pusher
+2021-09-09 13:38:24,668 INFO    MainThread:9784 [internal.py:handle_exit():76] Internal process exited

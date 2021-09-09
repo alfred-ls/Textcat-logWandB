@@ -5,16 +5,16 @@ convert:
     - python scripts/convert.py en assets/UC2_eval_prodigy.jsonl corpus/dev.spacy
   deps:
     - path: assets/UC2_train_prodigy.jsonl
-      md5: 81c9ea7b96a682e20476779c557ae6d8
+      md5: 3ae9f89f2719e45d4e4dacedfff9a0b1
     - path: assets/UC2_eval_prodigy.jsonl
-      md5: 18c89489499935fc8564a02cd89ffdfe
+      md5: 1d2b7c5cd921182cf3b3c4561ec309e2
     - path: scripts/convert.py
       md5: 472f526a81d2288e426c9161c0e7819c
   outs:
     - path: corpus/train.spacy
-      md5: 6a1e7cbc6821cd1974c29059ac6c3c22
+      md5: a89c992a999b548776c6f65f0a437c63
     - path: corpus/dev.spacy
-      md5: f3b97aa763a00e8834f9aa87bcb00b72
+      md5: 35869d9c6e0d640a7ccaae252cc3c04a
   spacy_version: 3.1.1
   spacy_git_version: ffaead8fe
 train:
@@ -24,14 +24,14 @@ train:
       --paths.dev corpus/dev.spacy --nlp.lang en --gpu-id -1
   deps:
     - path: configs/config.cfg
-      md5: ab7fca63cf6f7dabb8a9310eb579ef25
+      md5: 34fc63a8d3dfd0064cc12898fa906d1b
     - path: corpus/train.spacy
-      md5: 6a1e7cbc6821cd1974c29059ac6c3c22
+      md5: a89c992a999b548776c6f65f0a437c63
     - path: corpus/dev.spacy
-      md5: f3b97aa763a00e8834f9aa87bcb00b72
+      md5: 35869d9c6e0d640a7ccaae252cc3c04a
   outs:
     - path: training/model-best
-      md5: f8536b0b360326e76314f31316f6df81
+      md5: 3ec342406c443931dd3e87a31e9ac3a3
   spacy_version: 3.1.1
   spacy_git_version: ffaead8fe
 evaluate:
@@ -40,24 +40,24 @@ evaluate:
     - python -m spacy evaluate training/model-best corpus/dev.spacy --output training/metrics.json
   deps:
     - path: corpus/dev.spacy
-      md5: f3b97aa763a00e8834f9aa87bcb00b72
+      md5: 35869d9c6e0d640a7ccaae252cc3c04a
     - path: training/model-best
-      md5: f8536b0b360326e76314f31316f6df81
+      md5: 3ec342406c443931dd3e87a31e9ac3a3
   outs:
     - path: training/metrics.json
-      md5: 8bbc99fc45f03eca75a0b54c8f913834
+      md5: 570e1adab22bec115e1e3889027ae6d4
   spacy_version: 3.1.1
   spacy_git_version: ffaead8fe
 package:
   cmd: python -m spacy run package
   script:
-    - python -m spacy package training/model-best packages --name textcat_demo --version
+    - python -m spacy package training/model-best packages --name textcat_UC2 --version
       0.0.0 --force
   deps:
     - path: training/model-best
-      md5: bab406245d0d57fce340d96caae4566a
+      md5: 3ec342406c443931dd3e87a31e9ac3a3
   outs:
-    - path: packages/en_textcat_demo-0.0.0/dist/en_textcat_demo-0.0.0.tar.gz
-      md5: b159c8803ffb5859b5c9507f0a15eedd
+    - path: packages/en_textcat_UC2-0.0.0/dist/en_textcat_UC2-0.0.0.tar.gz
+      md5: 3898eddb6d333b87115741a94812ccd8
   spacy_version: 3.1.1
   spacy_git_version: ffaead8fe

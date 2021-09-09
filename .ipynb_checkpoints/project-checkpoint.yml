@@ -1,8 +1,8 @@
-title: "Use Case 02 Text Classification BBC & NG news"
-description: "A textcat project for spaCy v3. The project data comes from kaggle (https://XXX) project."
+title: "Use Case 02 Text Classification BBC & NG news and logging results in wandb"
+description: "A textcat project for spaCy v3. The project data comes from kaggle."
 # Variables can be referenced across the project.yml using ${vars.var_name}
 vars:
-  name: "textcat_demo"
+  name: "textcat_UC2"
   # Supported languages: all except ja, ko, th, vi, and zh, which would require
   # custom tokenizer settings in config.cfg
   lang: "en"

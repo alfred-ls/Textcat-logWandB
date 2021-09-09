@@ -1,0 +1,35 @@
+{
+    "os": "Windows-10-10.0.18362-SP0",
+    "python": "3.8.3",
+    "heartbeatAt": "2021-09-09T08:40:39.561358",
+    "startedAt": "2021-09-09T08:40:38.334213",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "train",
+        "configs/config.cfg",
+        "--output",
+        "training/",
+        "--paths.train",
+        "corpus/train.spacy",
+        "--paths.dev",
+        "corpus/dev.spacy",
+        "--nlp.lang",
+        "en",
+        "--gpu-id",
+        "-1"
+    ],
+    "state": "running",
+    "program": "C:\\Users\\astelzl\\Miniconda3\\lib\\site-packages\\spacy\\__main__.py",
+    "codePath": "..\\..\\..\\..\\Miniconda3\\lib\\site-packages\\spacy\\__main__.py",
+    "git": {
+        "remote": "https://github.com/alfred-ls/UC02-textcat-loggingWandb.git",
+        "commit": "e1763d060064cb24140bb77e8dfa5549d51b3a44"
+    },
+    "email": "alfred.stelzl@gmx.de",
+    "root": "C:/Users/astelzl/Documents/02_DEV/01_Code_Thesis/UC02-textcat-loggingWandb",
+    "host": "astelzlPC1C17X5",
+    "username": "astelzl",
+    "executable": "C:\\Users\\astelzl\\Miniconda3\\python.exe"
+}

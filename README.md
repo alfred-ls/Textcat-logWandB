@@ -1,6 +1,7 @@
 <!-- SPACY PROJECT: AUTO-GENERATED DOCS START (do not remove) -->
 
-# 🪐 spaCy Project: Use Case 02 Text Classification BBC & NG news
+# 🪐 spaCy & wandb Project: Use Case 02 Text Classification BBC & NG news
++ Use Weights & Biases for logging of training experiments
 
 A textcat project for spaCy v3. The project data comes from kaggle: 
 + BBC (https://www.kaggle.com/hgultekin/bbcnewsarchive)
@@ -27,7 +28,7 @@ Commands are only re-run if their inputs have changed.
 | Command | Description |
 | --- | --- |
 | `convert` | Convert the data to spaCy's binary format |
-| `train` | Train the textcat model |
+| `train` | Train the textcat model and log results via wandb |
 | `evaluate` | Evaluate the model and export metrics |
 | `package` | Package the trained model as a pip package |
 | `visualize-model` | Visualize the model's output interactively using Streamlit |
