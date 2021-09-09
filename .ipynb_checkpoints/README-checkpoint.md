@@ -1,8 +1,19 @@
 <!-- SPACY PROJECT: AUTO-GENERATED DOCS START (do not remove) -->
 
-# 🪐 spaCy Project: Demo Textcat (Text Classification)
+# 🪐 spaCy & wandb Project: Use Case 02 Text Classification BBC & NG news
++ Use Weights & Biases for logging of training experiments
 
-A minimal demo textcat project for spaCy v3. The demo data comes from the [tutorials/textcat_docs_issues](https://github.com/explosion/projects/tree/v3/tutorials/textcat_docs_issues) project.
+A textcat project for spaCy v3. The project data comes from kaggle: 
++ BBC (https://www.kaggle.com/hgultekin/bbcnewsarchive)
++ NG (https://www.kaggle.com/salmaelanigri/doc-class)
+
+
+Label scheme (3 combined labels for 1 component):
+
+| Component | Labels |
+| --- | --- |
+| **`textcat`** | `tech`, `sport`, `entertainment` |
+
 
 ## 📋 project.yml
 
@@ -19,7 +30,7 @@ Commands are only re-run if their inputs have changed.
 | Command | Description |
 | --- | --- |
 | `convert` | Convert the data to spaCy's binary format |
-| `train` | Train the textcat model |
+| `train` | Train the textcat model and log the result via wandb |
 | `evaluate` | Evaluate the model and export metrics |
 | `package` | Package the trained model as a pip package |
 | `visualize-model` | Visualize the model's output interactively using Streamlit |
@@ -33,7 +44,7 @@ inputs have changed.
 
 | Workflow | Steps |
 | --- | --- |
-| `all` | `convert` &rarr; `train` &rarr; `evaluate` &rarr; `package` |
+| `all` | `convert` &rarr; `train` &rarr; `evaluate` |
 
 ### 🗂 Assets
 
@@ -43,7 +54,7 @@ in the project directory.
 
 | File | Source | Description |
 | --- | --- | --- |
-| [`assets/docs_issues_training.jsonl`](assets/docs_issues_training.jsonl) | Local | Demo training data |
-| [`assets/docs_issues_eval.jsonl`](assets/docs_issues_eval.jsonl) | Local | Demo development data |
+| [`assets/UC2_train_prodigy.jsonl`](assets/UC2_train_prodigy.jsonl) | Local | Demo training data |
+| [`assets/UC2_eval_prodigy.jsonl`](assets/UC2_eval_prodigy.jsonl) | Local | Demo development data |
 
 <!-- SPACY PROJECT: AUTO-GENERATED DOCS END (do not remove) -->

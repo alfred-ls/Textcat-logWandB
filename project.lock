@@ -5,16 +5,16 @@ convert:
     - python scripts/convert.py en assets/UC2_eval_prodigy.jsonl corpus/dev.spacy
   deps:
     - path: assets/UC2_train_prodigy.jsonl
-      md5: 3ae9f89f2719e45d4e4dacedfff9a0b1
+      md5: c3a007db6aa0d9a1e0e52a8ddfbf932c
     - path: assets/UC2_eval_prodigy.jsonl
-      md5: 1d2b7c5cd921182cf3b3c4561ec309e2
+      md5: ed87bf33ac1cb86004a9d94f8bd34669
     - path: scripts/convert.py
       md5: 472f526a81d2288e426c9161c0e7819c
   outs:
     - path: corpus/train.spacy
-      md5: a89c992a999b548776c6f65f0a437c63
+      md5: c9b6692bd09f858b0b6659f377eab5ce
     - path: corpus/dev.spacy
-      md5: 35869d9c6e0d640a7ccaae252cc3c04a
+      md5: de61bc79e456bdd6bf4fcebebc261c9e
   spacy_version: 3.1.1
   spacy_git_version: ffaead8fe
 train:
@@ -26,12 +26,12 @@ train:
     - path: configs/config.cfg
       md5: 34fc63a8d3dfd0064cc12898fa906d1b
     - path: corpus/train.spacy
-      md5: a89c992a999b548776c6f65f0a437c63
+      md5: c9b6692bd09f858b0b6659f377eab5ce
     - path: corpus/dev.spacy
-      md5: 35869d9c6e0d640a7ccaae252cc3c04a
+      md5: de61bc79e456bdd6bf4fcebebc261c9e
   outs:
     - path: training/model-best
-      md5: 3ec342406c443931dd3e87a31e9ac3a3
+      md5: 455f14ab0cab101f3b5a8a15406bb774
   spacy_version: 3.1.1
   spacy_git_version: ffaead8fe
 evaluate:
@@ -40,12 +40,12 @@ evaluate:
     - python -m spacy evaluate training/model-best corpus/dev.spacy --output training/metrics.json
   deps:
     - path: corpus/dev.spacy
-      md5: 35869d9c6e0d640a7ccaae252cc3c04a
+      md5: de61bc79e456bdd6bf4fcebebc261c9e
     - path: training/model-best
-      md5: 3ec342406c443931dd3e87a31e9ac3a3
+      md5: 455f14ab0cab101f3b5a8a15406bb774
   outs:
     - path: training/metrics.json
-      md5: 570e1adab22bec115e1e3889027ae6d4
+      md5: 806376ede5f02705e21abeea1a32f9fd
   spacy_version: 3.1.1
   spacy_git_version: ffaead8fe
 package:
@@ -55,9 +55,9 @@ package:
       0.0.0 --force
   deps:
     - path: training/model-best
-      md5: 3ec342406c443931dd3e87a31e9ac3a3
+      md5: 455f14ab0cab101f3b5a8a15406bb774
   outs:
     - path: packages/en_textcat_UC2-0.0.0/dist/en_textcat_UC2-0.0.0.tar.gz
-      md5: 3898eddb6d333b87115741a94812ccd8
+      md5: 8812b99312e960e98d5487997102947d
   spacy_version: 3.1.1
   spacy_git_version: ffaead8fe
