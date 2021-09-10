@@ -1,0 +1,38 @@
+{
+  "token_acc":1.0,
+  "token_p":1.0,
+  "token_r":1.0,
+  "token_f":1.0,
+  "cats_score":0.9847154691,
+  "cats_score_desc":"macro F",
+  "cats_micro_p":0.9889361702,
+  "cats_micro_r":0.9801771404,
+  "cats_micro_f":0.9845371743,
+  "cats_macro_p":0.9891447505,
+  "cats_macro_r":0.9803451915,
+  "cats_macro_f":0.9847154691,
+  "cats_macro_auc":0.9967056317,
+  "cats_f_per_type":{
+    "tech":{
+      "p":0.9833971903,
+      "r":0.9833971903,
+      "f":0.9833971903
+    },
+    "sport":{
+      "p":0.9937984496,
+      "r":0.9801223242,
+      "f":0.98691301
+    },
+    "entertainment":{
+      "p":0.9902386117,
+      "r":0.97751606,
+      "f":0.9838362069
+    }
+  },
+  "cats_auc_per_type":{
+    "tech":0.9954033444,
+    "sport":0.9979508744,
+    "entertainment":0.9967626762
+  },
+  "speed":30332.5270193671
+}

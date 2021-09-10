@@ -1,0 +1,9 @@
+{
+  "labels":[
+    "tech",
+    "sport",
+    "entertainment"
+  ],
+  "threshold":0.5,
+  "positive_label":null
+}
