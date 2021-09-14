@@ -58,7 +58,15 @@ in the project directory.
 | [`assets/UC2_train_prodigy.jsonl`](assets/UC2_train_prodigy.jsonl) | Local | Demo training data |
 | [`assets/UC2_eval_prodigy.jsonl`](assets/UC2_eval_prodigy.jsonl) | Local | Demo development data |
 
+
 ### 💯 Insights
+
+![MetricsFor_modeltraining](https://user-images.githubusercontent.com/52454409/133227731-e6952866-250c-43e0-869e-3afad038f3bf.png)
+
+![MetricsFor_modelevaluation](https://user-images.githubusercontent.com/52454409/133227780-90fdd46a-e072-486a-99cd-0d71caf59d27.png)
+
+![AccuracyVSRuntime_modeltraining](https://user-images.githubusercontent.com/52454409/133227806-45a554d4-79a1-4148-8a51-473649931ef3.png)
+
 
 
 
