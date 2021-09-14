@@ -52,19 +52,23 @@ The following assets are defined by the project.
 
 | File | Source | Description |
 | --- | --- | --- |
-| [`assets/UC2_train_prodigy.jsonl`](assets/UC2_train_prodigy.jsonl) | Local | Demo training data |
-| [`assets/UC2_eval_prodigy.jsonl`](assets/UC2_eval_prodigy.jsonl) | Local | Demo development data |
+| [`assets/UC2_train_prodigy.jsonl`](assets/UC2_train_prodigy.jsonl) | Local | training data |
+| [`assets/UC2_eval_prodigy.jsonl`](assets/UC2_eval_prodigy.jsonl) | Local | development/eval data |
 
 
 ### 💯 Insights
 
 Some project insights and plots.
 
-![MetricsFor_modeltraining](https://user-images.githubusercontent.com/52454409/133236738-85ee2c42-5ef1-494a-ad46-b8319595b2f4.png)
+![MetricsFor_modeltraining](https://user-images.githubusercontent.com/52454409/133275693-87876529-04cf-4af9-9ee3-33764027c8f1.png)
 
-![MetricsFor_modelevaluation](https://user-images.githubusercontent.com/52454409/133237146-6e2ae384-c908-4813-8d2e-9f85e8b49862.png)
+![MetricsFor_modelevaluation](https://user-images.githubusercontent.com/52454409/133275728-a00e44d3-2950-4507-a1d9-1217fe6bbd5a.png)
 
-![AccuracyVSRuntime_modeltraining](https://user-images.githubusercontent.com/52454409/133237193-49b8e4a4-a5f5-4224-a6c2-27f6bf74c883.png)
+![AccuracyVSRuntime_modeltraining](https://user-images.githubusercontent.com/52454409/133275761-38e90116-834b-4ee3-9709-ffb14ca89166.png)
+
+![WordCounts_Runtime](https://user-images.githubusercontent.com/52454409/133275794-ce96277e-14a9-404f-bb94-4e6ef02e3963.png)
+
+
 
 
 <!-- SPACY PROJECT: AUTO-GENERATED DOCS END (do not remove) -->
