@@ -19,8 +19,7 @@ Label scheme (3 combined labels for 1 component):
 ## 📋 project.yml
 
 The [`project.yml`](project.yml) defines the data assets required by the
-project, as well as the available commands and workflows. For details, see the
-[spaCy projects documentation](https://spacy.io/usage/projects).
+project, as well as the available commands and workflows.
 
 ### ⏯ Commands
 
@@ -49,9 +48,7 @@ inputs have changed.
 
 ### 🗂 Assets
 
-The following assets are defined by the project. They can
-be fetched by running [`spacy project assets`](https://spacy.io/api/cli#project-assets)
-in the project directory.
+The following assets are defined by the project.
 
 | File | Source | Description |
 | --- | --- | --- |
@@ -61,13 +58,13 @@ in the project directory.
 
 ### 💯 Insights
 
-![MetricsFor_modeltraining](https://user-images.githubusercontent.com/52454409/133227731-e6952866-250c-43e0-869e-3afad038f3bf.png)
+Some project insights and plots.
 
-![MetricsFor_modelevaluation](https://user-images.githubusercontent.com/52454409/133227780-90fdd46a-e072-486a-99cd-0d71caf59d27.png)
+![MetricsFor_modeltraining](https://user-images.githubusercontent.com/52454409/133236738-85ee2c42-5ef1-494a-ad46-b8319595b2f4.png)
 
-![AccuracyVSRuntime_modeltraining](https://user-images.githubusercontent.com/52454409/133227806-45a554d4-79a1-4148-8a51-473649931ef3.png)
+![MetricsFor_modelevaluation](https://user-images.githubusercontent.com/52454409/133237146-6e2ae384-c908-4813-8d2e-9f85e8b49862.png)
 
-
+![AccuracyVSRuntime_modeltraining](https://user-images.githubusercontent.com/52454409/133237193-49b8e4a4-a5f5-4224-a6c2-27f6bf74c883.png)
 
 
 <!-- SPACY PROJECT: AUTO-GENERATED DOCS END (do not remove) -->
