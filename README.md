@@ -58,4 +58,8 @@ in the project directory.
 | [`assets/UC2_train_prodigy.jsonl`](assets/UC2_train_prodigy.jsonl) | Local | Demo training data |
 | [`assets/UC2_eval_prodigy.jsonl`](assets/UC2_eval_prodigy.jsonl) | Local | Demo development data |
 
+### 💯 Insights
+
+
+
 <!-- SPACY PROJECT: AUTO-GENERATED DOCS END (do not remove) -->
