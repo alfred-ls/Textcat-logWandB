@@ -1,6 +1,6 @@
 <!-- SPACY PROJECT: AUTO-GENERATED DOCS START (do not remove) -->
 
-# 🪐 spaCy & wandb Project: 
+# 🪐 spaCy / wandb pipeline based on 🪐 spaCy Projects
 ## Use Case 02 Text Classification BBC & NG news
 + Using Weights & Biases for logging of training experiments
 
@@ -19,8 +19,7 @@ Label scheme (3 combined labels for 1 component):
 ## 📋 project.yml
 
 The [`project.yml`](project.yml) defines the data assets required by the
-project, as well as the available commands and workflows. For details, see the
-[spaCy projects documentation](https://spacy.io/usage/projects).
+project, as well as the available commands and workflows.
 
 ### ⏯ Commands
 
@@ -49,16 +48,26 @@ inputs have changed.
 
 ### 🗂 Assets
 
-The following assets are defined by the project. They can
-be fetched by running [`spacy project assets`](https://spacy.io/api/cli#project-assets)
-in the project directory.
+The following assets are defined by the project.
 
 | File | Source | Description |
 | --- | --- | --- |
-| [`assets/UC2_train_prodigy.jsonl`](assets/UC2_train_prodigy.jsonl) | Local | Demo training data |
-| [`assets/UC2_eval_prodigy.jsonl`](assets/UC2_eval_prodigy.jsonl) | Local | Demo development data |
+| [`assets/UC2_train_prodigy.jsonl`](assets/UC2_train_prodigy.jsonl) | Local | training data |
+| [`assets/UC2_eval_prodigy.jsonl`](assets/UC2_eval_prodigy.jsonl) | Local | development/eval data |
+
 
 ### 💯 Insights
+
+Some project insights and plots.
+
+![MetricsFor_modeltraining](https://user-images.githubusercontent.com/52454409/133275693-87876529-04cf-4af9-9ee3-33764027c8f1.png)
+
+![MetricsFor_modelevaluation](https://user-images.githubusercontent.com/52454409/133275728-a00e44d3-2950-4507-a1d9-1217fe6bbd5a.png)
+
+![AccuracyVSRuntime_modeltraining](https://user-images.githubusercontent.com/52454409/133275761-38e90116-834b-4ee3-9709-ffb14ca89166.png)
+
+![WordCounts_Runtime](https://user-images.githubusercontent.com/52454409/133275794-ce96277e-14a9-404f-bb94-4e6ef02e3963.png)
+
 
 
 
