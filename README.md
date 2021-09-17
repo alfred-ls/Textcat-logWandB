@@ -1,6 +1,6 @@
 <!-- SPACY PROJECT: AUTO-GENERATED DOCS START (do not remove) -->
 
-# 🪐 spaCy & wandb Project: 
+# 🪐 spaCy & wandb project based on 🪐 spaCy projects
 ## Use Case 02 Text Classification BBC & NG news
 + Using Weights & Biases for logging of training experiments
 
