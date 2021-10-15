@@ -60,7 +60,7 @@ The following assets are defined by the project.
 
 Some project insights and plots.
 
-![image](https://user-images.githubusercontent.com/52454409/137469921-1b6676b9-954b-488f-9521-e24661593f4f.png)
+![image](https://user-images.githubusercontent.com/52454409/137470984-3311d116-8a81-4361-b7f1-ac6ce63bdf1a.png)
 
 ![image](https://user-images.githubusercontent.com/52454409/137470065-ea1813b1-9dad-4262-9198-3a16001df039.png)
 
