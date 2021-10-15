@@ -60,14 +60,11 @@ The following assets are defined by the project.
 
 Some project insights and plots.
 
-![MetricsFor_modeltraining](https://user-images.githubusercontent.com/52454409/133275693-87876529-04cf-4af9-9ee3-33764027c8f1.png)
+![image](https://user-images.githubusercontent.com/52454409/137469921-1b6676b9-954b-488f-9521-e24661593f4f.png)
 
-![MetricsFor_modelevaluation](https://user-images.githubusercontent.com/52454409/133275728-a00e44d3-2950-4507-a1d9-1217fe6bbd5a.png)
+![image](https://user-images.githubusercontent.com/52454409/137470065-ea1813b1-9dad-4262-9198-3a16001df039.png)
 
-![AccuracyVSRuntime_modeltraining](https://user-images.githubusercontent.com/52454409/133275761-38e90116-834b-4ee3-9709-ffb14ca89166.png)
-
-![WordCounts_Runtime](https://user-images.githubusercontent.com/52454409/133275794-ce96277e-14a9-404f-bb94-4e6ef02e3963.png)
-
+![image](https://user-images.githubusercontent.com/52454409/137470169-c1dca848-dc66-49e6-a25d-eab7205b3ca3.png)
 
 
 
