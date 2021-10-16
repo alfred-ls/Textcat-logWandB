@@ -58,11 +58,13 @@ The following assets are defined by the project.
 
 ### 💯 Insights
 
-![image](https://user-images.githubusercontent.com/52454409/137470984-3311d116-8a81-4361-b7f1-ac6ce63bdf1a.png)
+![image](https://user-images.githubusercontent.com/52454409/137599086-57d5d7da-3878-49fd-a474-8094bc128790.png)
 
-![image](https://user-images.githubusercontent.com/52454409/137470065-ea1813b1-9dad-4262-9198-3a16001df039.png)
+![image](https://user-images.githubusercontent.com/52454409/137599093-05ae99f0-6d5d-4be9-b49f-d9e8569daea0.png)
 
-![image](https://user-images.githubusercontent.com/52454409/137470169-c1dca848-dc66-49e6-a25d-eab7205b3ca3.png)
+![image](https://user-images.githubusercontent.com/52454409/137599100-3878e69b-e40b-409a-8d70-caeed221e961.png)
+
+
 
 
 
